@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3831E76620D940EA00494E00 /* ViewControllerEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3831E76520D940EA00494E00 /* ViewControllerEX.swift */; };
 		38BDEBB420D75E4F00E32206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDEBB320D75E4F00E32206 /* AppDelegate.swift */; };
 		38BDEBB620D75E4F00E32206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDEBB520D75E4F00E32206 /* ViewController.swift */; };
 		38BDEBB920D75E4F00E32206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BDEBB720D75E4F00E32206 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		38BDEBC120D75E5100E32206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38BDEBBF20D75E5100E32206 /* LaunchScreen.storyboard */; };
 		38BDEBCC20D75E5100E32206 /* homeworkMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDEBCB20D75E5100E32206 /* homeworkMapTests.swift */; };
 		38BDEBD720D75E5200E32206 /* homeworkMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDEBD620D75E5200E32206 /* homeworkMapUITests.swift */; };
+		38BDEBE520D7DA4300E32206 /* Up&Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BDEBE420D7DA4300E32206 /* Up&Downloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3831E76520D940EA00494E00 /* ViewControllerEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEX.swift; sourceTree = "<group>"; };
 		38BDEBB020D75E4F00E32206 /* homeworkMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeworkMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BDEBB320D75E4F00E32206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38BDEBB520D75E4F00E32206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		38BDEBD220D75E5100E32206 /* homeworkMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeworkMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BDEBD620D75E5200E32206 /* homeworkMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeworkMapUITests.swift; sourceTree = "<group>"; };
 		38BDEBD820D75E5200E32206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BDEBE420D7DA4300E32206 /* Up&Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Up&Downloader.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				38BDEBB320D75E4F00E32206 /* AppDelegate.swift */,
 				38BDEBB520D75E4F00E32206 /* ViewController.swift */,
+				3831E76520D940EA00494E00 /* ViewControllerEX.swift */,
 				38BDEBB720D75E4F00E32206 /* Main.storyboard */,
+				38BDEBE420D7DA4300E32206 /* Up&Downloader.swift */,
 				38BDEBBD20D75E5100E32206 /* Assets.xcassets */,
 				38BDEBBF20D75E5100E32206 /* LaunchScreen.storyboard */,
 				38BDEBC220D75E5100E32206 /* Info.plist */,
@@ -196,6 +202,11 @@
 				TargetAttributes = {
 					38BDEBAF20D75E4F00E32206 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					38BDEBC620D75E5100E32206 = {
 						CreatedOnToolsVersion = 9.4;
@@ -259,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3831E76620D940EA00494E00 /* ViewControllerEX.swift in Sources */,
+				38BDEBE520D7DA4300E32206 /* Up&Downloader.swift in Sources */,
 				38BDEBB620D75E4F00E32206 /* ViewController.swift in Sources */,
 				38BDEBB420D75E4F00E32206 /* AppDelegate.swift in Sources */,
 				38BDEBBC20D75E4F00E32206 /* homeworkMap.xcdatamodeld in Sources */,
